@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Smart Bus Tracker</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">home</string>
+    <string name="History">History</string>
+    <string name="spinner">Spinner</string>
+    <string-array name="names">
+        <item>17 Timeslot</item>
+        <item>17 Bus Fair</item>
+        <item>17 seat reservation</item>
+        <item>Map</item>
+
+    </string-array>
+    <string-array name="cake">
+
+
+        <item>17 Timeslot</item>
+        <item>17 Bus Fair</item>
+        <item>17 seat reservation</item>
+        <item>Map</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="Search">
+
+        <item>177 Map</item>
+        <item>177 Timeslot</item>
+        <item>177 Bus Fair</item>
+        <item>177 seat reservation</item>
+        <item>17 Map</item>
+        <item>17 Timeslot</item>
+        <item>17 Bus Fair</item>
+        <item>17 seat reservation</item>
+
+
+    </string-array>
+    <string name="title_activity_toast1">Toast1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_home_fragment">Hello Home fragment</string>
+    <string name="hello_profile_fragment">Hello Profile fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Samart Bus Tracker Now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="root_17">Kandy - Panadura </string>
+    <string name="root_177">Kaduwela - Negombo</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="title_activity_customer_maps">Map</string>
+
+</resources>

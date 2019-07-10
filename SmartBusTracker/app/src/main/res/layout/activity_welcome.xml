@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/materialyello"
+    tools:context=".Welcome">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        app:srcCompat="@mipmap/bus"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
+        android:text="WELCOME"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#111"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="41dp"
+        android:textColor="#111"
+        android:text="SMART BUS TRACKER"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="127dp"
+        android:layout_height="77dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginEnd="-14dp"
+        android:text="REGISTER" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="144dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginStart="35dp"
+        android:text="LOGIN" />
+
+
+</RelativeLayout>

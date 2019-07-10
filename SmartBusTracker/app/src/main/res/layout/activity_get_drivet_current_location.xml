@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getDrivetCureentLocation">
+
+
+    <TextView
+        android:id="@+id/Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="54dp"
+        android:text="Longitude" />
+
+    <TextView
+        android:id="@+id/Latitude"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Longitude"
+        android:layout_marginTop="102dp"
+        android:text="Latitude" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Longitude"
+        android:layout_marginEnd="107dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Latitude"
+        android:layout_marginEnd="87dp"
+        android:text="accuracy" />
+
+    <TextView
+        android:id="@+id/updatesOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Longitude"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="155dp"
+        android:text="updatesOff" />
+
+    <TextView
+        android:id="@+id/SensorType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Longitude"
+        android:layout_marginTop="198dp"
+        android:text="SensorType" />
+
+    <TextView
+        android:id="@+id/altitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Longitude"
+        android:layout_marginTop="239dp"
+        android:text="altitude" />
+
+    <ToggleButton
+        android:id="@+id/Gps"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="96dp"
+        android:layout_marginEnd="-113dp"
+        android:layout_toStartOf="@+id/textView12"
+        android:text="Switch To Gps" />
+
+    <ToggleButton
+        android:id="@+id/TurnOff"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Longitude"
+        android:layout_marginBottom="28dp"
+        android:text="Turn On Loaction" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignTop="@+id/textView14"
+        android:text="TextView"
+         />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginTop="206dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_alignTop="@+id/textView17"
+        android:text="TextView" />
+</RelativeLayout>

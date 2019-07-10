@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "193465785272",
+    "firebase_url": "https://smartbustracker-3dfbb.firebaseio.com",
+    "project_id": "smartbustracker-3dfbb",
+    "storage_bucket": "smartbustracker-3dfbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193465785272:android:2f2b02708d19a7ce",
+        "android_client_info": {
+          "package_name": "com.example.user.smartbustracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193465785272-ia03g6nois11has7bipcsjpgtq6a76l1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.smartbustracker",
+            "certificate_hash": "f2e6c2044b26dd25024813f19c24eb122fdfda40"
+          }
+        },
+        {
+          "client_id": "193465785272-1lr12dl2jok91aeoocp0bd6mo27he7ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEKZyv50L0fnlLmTOpiWSshaSq0gEwsHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193465785272-1lr12dl2jok91aeoocp0bd6mo27he7ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

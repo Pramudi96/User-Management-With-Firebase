@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fg"
+    tools:context=".Selection">
+
+
+    <Button
+        android:id="@+id/Driver"
+        android:layout_width="165dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="184dp"
+        android:layout_marginStart="19dp"
+        android:text="I'm a Driver" />
+
+    <Button
+        android:id="@+id/Custormer"
+        android:layout_width="180dp"
+        android:layout_height="127dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Driver"
+        android:text="I'm a Customer" />
+
+    <TextView
+        android:id="@+id/View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="110dp"
+        android:text="Select User Type"
+        android:textSize="30dp" />
+</RelativeLayout>
